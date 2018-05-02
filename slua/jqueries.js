@@ -1,22 +1,22 @@
  //jshint esversion:6 
 $(document).ready(function(){
-    $('#output').hover(function(){
-    $('#bearla').text('Manifesto');
+    $('h1').hover(function(){
+    $('.bearla').text('Manifesto');
     $(this).css('color','#e35ee5');
     }
 );
     $('#output').mouseout(function(){
-        $('#bearla').text('');
+        $('.bearla').text('');
         $(this).css('color','#730a0a');
     });
     document.querySelector('#bckBtn').onmouseenter = (event) => {
-        document.querySelector('#bearla').innerHTML = 'back';
+        document.querySelector('.bearla').innerHTML = 'back';
     };
     document.querySelector('#fwdBtn').onmouseenter = (event) => {
-        document.querySelector('#bearla').innerHTML = 'Mouseover Irish text to translate';
+        document.querySelector('.bearla').innerHTML = 'Mouseover Irish text to translate';
     };
 //    $('#button').hover(function(){
-//                   $('#bearla').text('push');
+//                   $('.bearla').text('push');
 //    });
  
      
@@ -24,13 +24,13 @@ $(document).ready(function(){
     $('#fwdBtn').click(function(){
 
         $('#output2 span').hover(function(){
-             $('#bearla').text($(this).attr('id'));
+             $('.bearla').text($(this).attr('id'));
              $(this).css('color','#e35ee5');
              $('div').slidedown(); 
     });
 
         $('#output2 span').mouseout(function(){
-            $('#bearla').text('');
+            $('.bearla').text('');
             $(this).css('color','#fff');
 
     });
@@ -39,13 +39,13 @@ $(document).ready(function(){
     $('#bckBtn').click(function(){
 
         $('#output2 span').hover(function(){
-             $('#bearla').text($(this).attr('id'));
+             $('.bearla').text($(this).attr('id'));
              $(this).css('color','#e35ee5');
              $('div').slidedown(); 
     });
 
         $('#output2 span').mouseout(function(){
-            $('#bearla').text('');
+            $('.bearla').text('');
             $(this).css('color','#fff');
 
     });
@@ -54,13 +54,13 @@ $(document).ready(function(){
    $('#play').click(function(){
 
         $('#output2 span').hover(function(){
-             $('#bearla').text($(this).attr('id'));
+             $('.bearla').text($(this).attr('id'));
              $(this).css('color','#e35ee5');
              $('div').slidedown(); 
     });
 
         $('#output2 span').mouseout(function(){
-            $('#bearla').text('');
+            $('.bearla').text('');
             $(this).css('color','#fff');
 
     });
@@ -68,12 +68,12 @@ $(document).ready(function(){
 
 
         $('#output2 span').hover(function(){
-             $('#bearla').text($(this).attr('id'));
+             $('.bearla').text($(this).attr('id'));
              $(this).css('color','#e35ee5');
     });
 
         $('#output2 span').mouseout(function(){
-            $('#bearla').text('');
+            $('.bearla').text('');
             $(this).css('color','#fff');
 
     });
@@ -84,14 +84,14 @@ $(document).ready(function(){
 
 
    $('#deirGeaga1').hover(function(){
-    $('#bearla').text('The Other Land');
+    $('.bearla').text('The Other Land');
     $(this).css('color','#e35ee5');
     }
 );
 
 
     $('#deirGeaga1').mouseout(function(){
-        $('#bearla').text('');
+        $('.bearla').text('');
         $(this).css('color','#730a0a');
     });
 
@@ -103,12 +103,12 @@ $(document).ready(function(){
          $('#deirGeaga2 span').hover(function(){
             console.log("hovvrin!");
             
-            $('#bearla').text($(this).attr('id'));
+            $('.bearla').text($(this).attr('id'));
              $(this).css('color','#e35ee5');
     });
 
         $('#deirGeaga2 span').mouseout(function(){
-            $('#bearla').text('');
+            $('.bearla').text('');
             $(this).css('color','#fff');
 
 
@@ -119,13 +119,13 @@ $(document).ready(function(){
 
    /*    
        $('#deirGeaga2').hover(function(){
-     $('#bearla').text('Welcome');
+     $('.bearla').text('Welcome');
         
            $(this).css('color','#e35ee5');
     });
 
         $('#deirGeaga2').mouseout(function(){
-            $('#bearla').text('');
+            $('.bearla').text('');
             $(this).css('color','#fff');
 
 
