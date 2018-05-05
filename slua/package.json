@@ -1,0 +1,11 @@
+{
+  "name": "slua",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jqueries.js",
+  "scripts": {
+    "build-css": "node-sass scss/style_100001.scss css/style_100001.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
