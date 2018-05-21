@@ -1,8 +1,7 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; }
 
 /*
 
@@ -117,322 +116,126 @@ body {
         background-color:rgb(36, 88, 1);
     }
     
-  */    
-.bearla{
-    background-image:url('./images/100001/siteBtnA.png');
-    
-  
-    border:2px solid gray;
-    width:321px;
-    height:179px;
-    padding:1rem;
-    margin:2rem;
-    position:fixed;
-    z-index:999;
+  */
+.bearla {
+  background-image: url("../images/100001/siteBtnA.png");
+  border: 2px solid gray;
+  width: 321px;
+  height: 179px;
+  padding: 1rem;
+  margin: 2rem;
+  position: fixed;
+  z-index: 999;
+  background-repeat: no-repeat; }
 
-}
-
-
-.container {
-    background: #6d6d6d;
-    width: 90%;
-    display:grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
-    padding: 5%;
-    text-align: center;
-}
-h1{
-    grid-column-start:2;
-    grid-column-end:3;
-    grid-row-start:1;
-    grid-row-end:2;
-}
-
-
-
-
-
-
-
-
-
-.sub-title{
-    grid-column-start:2;
-    grid-column-end:3;
-    grid-row-start:2;
-    grid-row-end:3;
-}
-.gif-of-na-geaga{
-    grid-column-start:2;
-    grid-column-end:3;
-    grid-row-start:3;
-    grid-row-end:4;
-
-}
-.foot{
-    grid-column-start:3;
-    grid-column-end:4;
-    grid-row-start:6;
-    grid-row-end:7;
-
-}
-
-
-.play {
-    background: rgb(151, 151, 151);
-    padding: 0 10rem 0 ;
-    
-}
-
-.play h3{
-    color:rgb(139, 95, 150);
-}
-
-#play-img {
-    float: right;
-    background-image: url('./images/th.jpeg');
-    width: 474px;
-    height: 345px;
-    border: 10px solid #6d6d6d;
-}
-
-.game {
-    background: rgb(136, 136, 136);
-    padding: 0 10rem 0 ;
-}
-
-.game h3{
-    color:rgb(64, 164, 124);
-}
-.computer-games {
-    background: rgb(126, 126, 126);
-}
-
-.computer-games h3{
-    color:rgb(222, 103, 150);
-    margin: 0 10rem 0 ;
-    
-}
-
-
-.blog-post {}
+.master-container {
+  background: #6d6d6d;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 5%;
+  text-align: center; }
 
 h1 {
-    background-color: #3a3a3a;
-    color: #6d6d6d;
-    font-size: 5rem;
-}
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; }
+
+.sub-title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.gif-of-na-geaga {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4; }
+
+.foot {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7; }
+
+.story {
+  background: #979797;
+  padding: 0 10rem 0; }
+  .story h3 {
+    color: #8b5f96; }
+  .story #story-img-1 {
+    float: right;
+    background-image: url("./images/th.jpeg");
+    width: 474px;
+    height: 345px;
+    border: 10px solid #6d6d6d; }
+
+h1 {
+  background-color: #3a3a3a;
+  color: #6d6d6d;
+  font-size: 5rem; }
 
 h2 {
-    background-color: #3a3a3a;
-    color: #6d6d6d;
-    font-size: 4rem;
-    padding:0.5em 1em ;
-}
+  background-color: #3a3a3a;
+  color: #6d6d6d;
+  font-size: 4rem;
+  padding: 0.5em 1em; }
 
 h3 {
-    background-color: #3a3a3a;
-    color: #6d6d6d;
-    font-size: 3rem;
-}
-
-p,
-q,
-pre {
-    padding: 2rem;
-    font-size: 2rem;
-    color: #404040;
-    text-align: left;
-    clear: both;
-}
-
-pre {
-    text-align: center;
-    line-height: 3rem;
-    color: #d4d4d4;
-}
+  background-color: #3a3a3a;
+  color: #6d6d6d;
+  font-size: 3rem; }
 
 ul li {
-    font-size: 2rem;
-    color: #404040;
-    list-style-image: url('./images/checkmark.png');
-}
+  font-size: 2rem;
+  color: #404040;
+  list-style-image: url("./images/checkmark.png"); }
 
-#ul-aligner {
-    float: left;
-}
+.btn {
+  line-height: 1em;
+  height: 4em;
+  width: 80%;
+  background-color: #34457e;
+  padding: 2rem;
+  font-size: 2rem;
+  color: #acacac;
+  border: 0.5em solid rgba(51, 51, 51, 0.5);
+  text-align: center; }
 
-a {
-    color: yellow;
-    text-decoration: none;
-}
-
-a:hover {
-    color: orange;
-}
-
-a:visited {
-    color: rgb(255, 94, 0);
-}
-
-a:hover {
-    color: orange;
-}
-
-.example-1,
-.example-2,
-.example-3,
-.example-4 {
-    background: rgb(73, 73, 73);
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.example-1 .pic-a,
-.example-1 .pic-b,
-.example-1 .pic-c,
-.example-2 .pic-a,
-.example-2 .pic-b,
-.example-2 .pic-c {
-    margin: 1em;
-    flex: 1;
-    height: 360px;
-    width: 689px;
-    background-image: url('./images/defender.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.example-1 .pic-b {
-    background-image: url('./images/katakis.png');
-}
-
-.example-1 .pic-c {
-    background-image: url('./images/gradius.png');
-}
-
-.example-2 .pic-a,
-.example-2 .pic-b,
-.example-2 .pic-c {
-    margin: 1em;
-    flex: 1;
-    height: 360px;
-    width: 689px;
-    background-image: url('./images/mario1.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.example-2 .pic-b {
-    background-image: url('./images/mario2.png');
-}
-
-.example-2 .pic-c {
-    background-image: url('./images/mario3.png');
-}
-
-.example-3 .pic-a,
-.example-3 .pic-b,
-.example-3 .pic-c {
-   
-    margin: 1em;
-    flex: 1;
-    height: 360px;
-    width: 689px;
-    background-image: url('./images/wolf.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.example-3 .pic-b {
-     background-image: url('./images/quake.png');
-}
-
-.example-3 .pic-c {
-    background-image: url('./images/doom.png');
-}
-
-
-
-.example-4 .pic-a,
-.example-4 .pic-b,
-.example-4 .pic-c {
-   
-    margin: 1em;
-    flex: 1;
-    height: 360px;
-    width: 689px;
-    background-image: url('./images/hydlide.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.example-4 .pic-b {
-     background-image: url('./images/lufia_II.png');
-}
-
-.example-4 .pic-c {
-    background-image: url('./images/baldour.png');
-}
-
-
-
-
-.computer-games p{
-    color:#292929;
-}
-
-.btn{
-    line-height: 1em;
-    height: 4em;
-    width:80%;
-    background-color:#34457e;
-    padding: 2rem;
-    font-size: 2rem;
-    color: #acacac;
-    border: 0.5em solid rgba(51, 51, 51,.5);
-    text-align: center;
-}
-.btn:hover{
-    background-color:#09247e;
-}
-.btn:active{}
+.btn:hover {
+  background-color: #09247e; }
 
 @-webkit-keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        /*Chrome, Opera 15+, Safari 3.1+*/
-        -ms-transform: rotate(0deg);
-        /*IE 9*/
-        transform: rotate(0deg);
-        /*Firefox 16+, IE 10+, Opera*/
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        /*Chrome, Opera 15+, Safari 3.1+*/
-        -ms-transform: rotate(360deg);
-        /*IE 9*/
-        transform: rotate(360deg);
-        /*Firefox 16+, IE 10+, Opera*/
-    }
-}
+  0% {
+    -webkit-transform: rotate(0deg);
+    /*Chrome, Opera 15+, Safari 3.1+*/
+    -ms-transform: rotate(0deg);
+    /*IE 9*/
+    transform: rotate(0deg);
+    /*Firefox 16+, IE 10+, Opera*/ }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /*Chrome, Opera 15+, Safari 3.1+*/
+    -ms-transform: rotate(360deg);
+    /*IE 9*/
+    transform: rotate(360deg);
+    /*Firefox 16+, IE 10+, Opera*/ } }
 
 @keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        /*Chrome, Opera 15+, Safari 3.1+*/
-        -ms-transform: rotate(0deg);
-        /*IE 9*/
-        transform: rotate(0deg);
-        /*Firefox 16+, IE 10+, Opera*/
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        /*Chrome, Opera 15+, Safari 3.1+*/
-        -ms-transform: rotate(360deg);
-        /*IE 9*/
-        transform: rotate(360deg);
-        /*Firefox 16+, IE 10+, Opera*/
-    }
-}
+  0% {
+    -webkit-transform: rotate(0deg);
+    /*Chrome, Opera 15+, Safari 3.1+*/
+    -ms-transform: rotate(0deg);
+    /*IE 9*/
+    transform: rotate(0deg);
+    /*Firefox 16+, IE 10+, Opera*/ }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /*Chrome, Opera 15+, Safari 3.1+*/
+    -ms-transform: rotate(360deg);
+    /*IE 9*/
+    transform: rotate(360deg);
+    /*Firefox 16+, IE 10+, Opera*/ } }

@@ -1,0 +1,46 @@
+
+
+
+.keys{
+    
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-column-gap: 0.1em;
+    grid-row-gap: 0.1em;
+}
+
+.key {
+    border:4px solid black;
+        border-radius: 5px;
+    margin:0.25rem;
+    font-size:.5em;
+    padding: .5rem .5rem;
+    transition:all 0.2s;
+    width:50px;
+    text-align:center;
+    color:white;
+    background:rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px black;
+    opacity:0;
+}
+
+kbd{
+    display:block;
+    font-size: 20px; 
+} 
+
+.sound {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffc600; 
+    
+}
+
+.playing {
+    opacity:1;
+    transform: scale(2.2);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600; 
+
+}
